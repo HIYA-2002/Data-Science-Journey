@@ -6,6 +6,7 @@
 > Learned that Python automatically infers data types, but I tested edge cases like type(5/2) → float, while 5//2 → int. I used this to debug why a for loop wasn’t working as expected with range.
 
 > Tested that variable names can't start with numbers or most special characters (like #, @), but _var1 works.
+
 > Used round(3.14159, 2) → 3.14  but doesn’t affect internal precision—important for financial data.
 
 ### 🧠 Python Built-in Function: `divmod()`
