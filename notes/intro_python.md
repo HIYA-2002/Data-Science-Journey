@@ -32,3 +32,11 @@
 isinstance(5, int)        # True  
 isinstance(5.0, float)    # True  
 isinstance("5", int)      # False
+
+## Exponents and Modular Arithmetic
+
+- `pow(x, y)` returns x raised to the power y.
+- `pow(x, y, z)` returns (x^y) % z — efficient for large numbers.
+pow(2, 3)       # Output: 8
+pow(2, 3, 5)    # Output: 3, since 2^3 = 8 and 8 % 5 = 3
+
