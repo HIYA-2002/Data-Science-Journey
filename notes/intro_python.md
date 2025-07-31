@@ -39,5 +39,25 @@ isinstance("5", int)      # False
 - `pow(x, y, z)` returns (x^y) % z — efficient for large numbers.
   
 pow(2, 3)       # Output: 8
+
 pow(2, 3, 5)    # Output: 3, since 2^3 = 8 and 8 % 5 = 3
+
+## Taking User Input
+
+input() is used to take user input as a string.
+
+It always returns a str, even if the user types a number.
+
+To work with numbers, type conversion is necessary:
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))  # Converts to int
+
+## Conditional Logic: if, elif, else
+
+- `if`: checks first condition
+- `elif`: optional checks if previous `if`/`elif` failed
+- `else`: optional fallback
+- Use comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`
+- Combine conditions with `and`, `or`, `not`
 
