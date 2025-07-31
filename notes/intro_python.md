@@ -20,3 +20,15 @@
   ```python
   quotient = x // y
   remainder = x % y
+
+# Python for Data Science – Day 1
+
+✅ Watched: Python for Data Science - freeCodeCamp
+
+## 🧠 Takeaways:
+## Type Checking
+
+- `isinstance()` function is used to verify the data type of a variable.
+isinstance(5, int)        # True  
+isinstance(5.0, float)    # True  
+isinstance("5", int)      # False
